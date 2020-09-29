@@ -1,4 +1,5 @@
-#! /bin/bash#run this after root reinstall, from desktop of your home folder
+#! /bin/bash
+#run this after root reinstall, from desktop of your home folder
 echo: "This script will not work unless run from the Desktop folder of the user who ran the backup script. (Hint, look for ./yourrootpartition.txt and yourhomepartition.txt"
 YOURROOTPARTITION="$( cat ./yourrootpartition.txt )"
 YOURHOMEPARTITION="$( cat ./yourhomepartition.txt )"
